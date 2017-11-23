@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Koketso42/grocery-api#readme",
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.1",
     "typescript": "^2.0.6"
   }
 }
