@@ -34,7 +34,12 @@ class App {
 			res.json({
 				message: 'Hello World!'
 			});
-		});
+        });
+
+		router.get('/api/v1/heroes', (req, res, next) => {
+			res.json();
+        });
+        
 		this.express.use('/', router);
 		this.express.use('/api/v1/heroes', HeroRouter);
 	}
