@@ -44,7 +44,7 @@ export class HeroRouter {
    * endpoints.
    */
 	init() {
-		this.router.get('', this.getAll);
+		this.router.get('/', this.getAll);
 		this.router.get('/:id', this.getOne);
 	}
 }
